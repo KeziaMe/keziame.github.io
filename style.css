@@ -2,6 +2,31 @@
 body {
   background-color: #dfe6e9;
 }
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
 h1 {
   color: black;
   text-align: center;
@@ -47,7 +72,7 @@ h1 {
   margin-left: 300px;
   text-align: justify;
 }
-#porto {
+#pporto {
   margin-left: 300px;
 }
 .ahliporto {
